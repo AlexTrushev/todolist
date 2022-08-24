@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="box" id="heading">
-      <h1><%= kindOfDay %></h1>
+      <h1><%= listTitle %></h1>
     </div>
 
     <div class="box">
@@ -28,14 +28,8 @@
           autocomplete="off"
           required="required"
         />
-        <button type="submit" name="button">+</button>
+        <button type="submit" name="list" value="<%= listTitle %>">+</button>
       </form>
     </div>
-
-    <!-- <% if (kindOfDay === "Saturday" || kindOfDay === "Sunday"){ %>
-    <h1 style="color: blueviolet">It's a <%= kindOfDay %>! ToDo list</h1>
-    <% } else { %>
-    <h1 style="color: blue">It's a <%= kindOfDay %>! ToDo list</h1>
-    <% } %> -->
   </body>
 </html>
