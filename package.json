@@ -6,19 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlexTrushev/todolist-v1.git"
-  },
-  "author": "Alex Trushev",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlexTrushev/todolist-v1/issues"
-  },
-  "homepage": "https://github.com/AlexTrushev/todolist-v1#readme",
   "dependencies": {
-    "body-parser": "^1.20.0",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.1"
   }
 }
